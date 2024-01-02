@@ -1,0 +1,37 @@
+.header {
+    background-color: #273469; /* Adjust the color to match your theme */
+    color: white;
+    padding: 0.5rem 1rem;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  
+  /* Style the navigation links */
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the links */
+    align-items: center;
+  }
+  
+  .header nav li {
+    padding: 0.5rem 1rem;
+  }
+  
+  .header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Highlight the active link */
+  .header nav a.active {
+    border-bottom: 2px solid #BCD2EE;
+  }
+  

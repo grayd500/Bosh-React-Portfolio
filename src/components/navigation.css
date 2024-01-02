@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .site-title {
+    color: #BCD2EE;
+    font-family: 'Cursive';
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #1E2749;
+    padding: 8px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    background-color: #1E2749;
+    color: #BCD2EE;
+  }
+  
