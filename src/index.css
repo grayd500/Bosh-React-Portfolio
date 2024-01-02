@@ -68,11 +68,17 @@ button:focus-visible {
 }
 
 .about-me {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically if you want */
+  margin: 0 auto;
+  text-align: center;
   padding-top: 60px; /* Adjust based on the height of your fixed header */
 }
 
 .about-me-avatar {
+  width: 150px;
   border-radius: 50%; /* Circular avatar */
   margin-bottom: 1rem;
 }
