@@ -1,0 +1,1 @@
+// This component will handle the navigation titles: About Me, Portfolio, Contact, Resume.
