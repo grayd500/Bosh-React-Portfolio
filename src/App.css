@@ -1,19 +1,32 @@
 /* portfolio-project/src/App.css */
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --background-color: #ffffff;
-  --text-color: #213547;
-  --header-bg-color: #273469;
-  --header-text-color: #ffffff;
+  --background-color: #FFFFFF;  /* White */
+  --text-color: #333333;        /* Dark Gray */
+  --header-bg-color: #5D93C4;   /* Soft Blue */
+  --header-text-color: #FFFFFF; /* White */
   --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  --form-bg-color: #fff;
-  --form-text-color: #000;
-  --button-bg-color: #273469;
-  --button-hover-bg-color: #1E2749;
+  --form-bg-color: #F0F0F0;     /* Light Gray */
+  --form-text-color: #333333;   /* Dark Gray */
+  --button-bg-color: #3B628B;   /* Darker Blue */
+  --button-hover-bg-color: #5D93C4; /* Soft Blue */
 }
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; /* Full width */
+}
+
 
 /* Color scheme based on user's system preferences */
 @media (prefers-color-scheme: dark) {
@@ -27,8 +40,6 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  display: flex;
-  place-items: center;
   padding: 0;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -47,8 +58,8 @@ body {
 
 /* Header styles */
 .header {
-  background-color: var(--header-bg-color);
-  color: var(--header-text-color);
+  background-color: var(--header-bg-color); /* Use Soft Blue */
+  color: white;
   padding: 1rem;
   position: fixed;
   top: 0;
@@ -60,12 +71,29 @@ body {
 
 /* Main content styles */
 main {
-  padding-top: 100px;
-  background: linear-gradient(to bottom, var(--header-bg-color), #1E2749);
-  color: var(--header-text-color);
-  padding: 2rem 0;
+  padding-top: 100px; /* Adjust based on your fixed header height */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: var(--background-color); /* Set to the new background color */
+  color: var(--text-color); /* Ensure text color is readable */
   min-height: calc(100vh - 100px);
+  width: 100%;
 }
+
+
+.about-me {
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+}
+
+
+.about-me-avatar {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
 
 /* Portfolio grid styling */
 .portfolio {
@@ -166,6 +194,23 @@ main {
   font-size: 0.875rem;
   margin-top: 0.5rem;
 }
+
+.resume-section ul {
+  list-style-type: none; /* Removes the bullets */
+  padding-left: 0; /* Removes the default padding */
+}
+
+footer a {
+  margin: 0 10px; /* Space between icons */
+  color: white; /* Icon color */
+}
+
+footer a:hover {
+  color: #5D93C4; /* Change color on hover */
+}
+
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

@@ -1,4 +1,4 @@
-// src/pages/Portfolio.jsx
+// src/pages/Portfolio.jsx:
 import Project from '../components/Project';
 import projectsData from '../projectData'; // make sure this import path is correct
 

@@ -3,7 +3,7 @@ function AboutMe() {
   return (
     <section className="about-me">
       <h1>About Me</h1>
-      <img src="../public/images/Dave.png" alt="Dave" className="about-me-avatar" />
+      <img src="images/Dave.png" alt="Dave" className="about-me-avatar" />
       <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehen`derit enim
       labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
       animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
