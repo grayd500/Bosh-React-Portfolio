@@ -1,6 +1,6 @@
 // portfolio-project/src/components/Navigation.jsx:
 import { NavLink } from 'react-router-dom';
-import './Navigation.css'; // Ensure the CSS file is linked
+import './navigation.css'; // Ensure the CSS file is linked
 
 function Navigation() {
   return (
