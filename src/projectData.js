@@ -37,6 +37,13 @@ const projectsData = [
     repoUrl: "https://github.com/grayd500/JS-Basketball-Scorecard"
   },
   {
+    id: 5,
+    title: "MERN Band Website",
+    imageUrl: "images/syntax.png",
+    deployedUrl: "https://syntax-8rz6.onrender.com/",
+    repoUrl: "https://github.com/grayd500/Syntax"
+  },
+  {
     id: 6,
     title: "Text Editor",
     imageUrl: "images/text-editor.png",
