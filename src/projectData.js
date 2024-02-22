@@ -37,18 +37,25 @@ const projectsData = [
     repoUrl: "https://github.com/grayd500/JS-Basketball-Scorecard"
   },
   {
-    id: 5,
+    id: 6,
     title: "Salesforce Lightning Web Components Demo",
     imageUrl: "images/lwc-demo-org.png",
     deployedUrl: "https://github.com/grayd500/Bosh-React-Portfolio/blob/main/README.md",
     repoUrl: "https://github.com/grayd500/LWC-Lightning-Blaster"
   },
   {
-    id: 6,
+    id: 7,
     title: "Text Editor",
     imageUrl: "images/text-editor.png",
     deployedUrl: "https://module-19-text-editor-challenge.onrender.com",
     repoUrl: "https://github.com/grayd500/text-editor2"
+  },
+  {
+    id: 8,
+    title: "MERN Mock Band Website: Syntax",
+    imageUrl: "images/syntax.png",
+    deployedUrl: "https://syntax-8rz6.onrender.com/",
+    repoUrl: "https://github.com/grayd500/Syntax"
   }
 ];
 
