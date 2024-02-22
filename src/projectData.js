@@ -38,10 +38,10 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "MERN Band Website",
-    imageUrl: "images/syntax.png",
-    deployedUrl: "https://syntax-8rz6.onrender.com/",
-    repoUrl: "https://github.com/grayd500/Syntax"
+    title: "Salesforce Lightning Web Components Demo",
+    imageUrl: "images/lwc-demo-org.png",
+    deployedUrl: "https://github.com/grayd500/Bosh-React-Portfolio/blob/main/README.md",
+    repoUrl: "https://github.com/grayd500/LWC-Lightning-Blaster"
   },
   {
     id: 6,
