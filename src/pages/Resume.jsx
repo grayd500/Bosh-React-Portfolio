@@ -8,11 +8,13 @@ function Resume() {
 
       <h2>Certifications</h2>
       <ul>
-        <li>Certified Salesforce Administrator</li>
-        <li>Certified Salesforce Business Analyst</li>
-        <li>Certified Hubspot RevOps</li>
-        <li>Certified Gong! Frontline Manager</li>
-        <li>Certified Gong! Program Manager</li>
+        <li>Full-Stack-Developer</li>
+        <li>Salesforce Administrator</li>
+        <li>Salesforce Platform App Builder</li>
+        <li>Salesforce Business Analyst</li>
+        <li>Hubspot RevOps</li>
+        <li>Gong! Frontline Manager</li>
+        <li>Gong! Program Manager</li>
         <li>Triple Star Ranger - 20+ Superbadges</li>
       </ul>
 
@@ -68,6 +70,17 @@ function Resume() {
         <li>REST API</li>
         <li>MySQL</li>
         <li>NoSQL</li>
+      </ul>
+
+      <h2>Education</h2>
+      <ul>
+        <li>BA in Economics - Southwestern University '09</li>
+        <li>Certified Full-Stack-Developer - University of Texas at Austin '24</li>
+      </ul>
+
+      <h2>Military</h2>
+      <ul>
+        <li>Aviation Electronics Technician E5 - US Navy</li>
       </ul>
 
       {/* Add any additional sections as needed */}
