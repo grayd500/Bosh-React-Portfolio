@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div className="resume-section">
       <h1>Resume</h1>
-      <a href="images\Dave Gray Resume NFP 2023.pdf" download>Download my resume</a>
+      <a href="images\Dave Gray Resume NonProfit Generalist.pdf" download>Download my resume</a>
 
       <h2>Certifications</h2>
       <ul>
