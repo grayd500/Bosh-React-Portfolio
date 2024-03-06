@@ -75,7 +75,7 @@ function Resume() {
       <h2>Education</h2>
       <ul>
         <li>BA in Economics - Southwestern University '09</li>
-        <li>Certified Full-Stack-Developer - University of Texas at Austin '24</li>
+        <li>Certified Coder (Full-Stack-Developer) - University of Texas at Austin '24</li>
       </ul>
 
       <h2>Military</h2>

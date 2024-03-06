@@ -1,12 +1,14 @@
 // src/pages/AboutMe.jsx
 function AboutMe() {
   return (
-    <section className="about-me">
-      <h1>About Me</h1>
-      <img src="images/Dave.png" alt="Dave" className="about-me-avatar" />
-      <p>I have almost 10 years of hands-on experience with the Salesforce platform in various roles, including as an end-user, consultant, and certified administrator. During this time, I have worked with over 25 SaaS companies across multiple industries. My background includes working as a data analyst for the City of Austin, a client success specialist and content author for an EdTech startup, as well as enterprise sales development for one of the world`s Top-100 Startup companies.
+<section className="about-me">
+<h1>About Me</h1>
+<img src="images/Dave.png" alt="Dave" className="about-me-avatar" />
+<p>In my ten-year journey with Salesforce, I've evolved from an end-user to a certified administrator, app builder and business analyst, showcasing my versatility and technological insight. My work across dozens of various SaaS firms and startups has honed my RevOps expertise, streamlining operations with strategic innovation.  I increased my knowledge in 2024 by completing a 6-month intensive coding program at the University of Texas to enhance my understanding of the front and back end for full-stack-development, including building this website. 
+  
+My efforts in nonprofits, as both a professional and volunteer, I leverage technological expertise with my leadership and relationship-building acumen for impactful results.
 
-In addition to my experience, I hold SFDC Business Analyst and Admin certifications and have earned over 300 Salesforce Skills Badges, including 20 Super Badges. I am proud to be a Triple Star Ranger with Salesforce`s Trailblazer.</p>
+My diverse experience spans educational technology, community support, and veteran services, marked by strategic problem-solving and impactful solutions. My military background adds a disciplined approach, enriching my technical and strategic work. This combination of tech proficiency, mission-based administration, and operational strategy demonstrates my capacity for transformative change, adeptly navigating and uniting different sectors for meaningful progress.</p>
     </section>
   );
 }
